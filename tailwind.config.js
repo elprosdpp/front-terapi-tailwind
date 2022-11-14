@@ -15,6 +15,9 @@ module.exports = {
       rBlue: '#a9bbff',
       yBlue: '#d4ddff'
     },
+    fontFamily: {
+      'sans': ['Abril Fat'],
+    },
     extend: {
       screen: {
         sm: '480px',
@@ -22,6 +25,9 @@ module.exports = {
         lg: '976px',
         xl: '1440px'
       },
+    },
+    backgroundImage: {
+      'slider': 'url("@/assets/img/slider.jpg")',
     },
   },
   plugins: [
